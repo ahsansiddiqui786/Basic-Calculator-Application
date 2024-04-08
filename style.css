@@ -1,0 +1,95 @@
+body {
+    background-color: #000000;
+}
+
+.center {
+    color: #fff;
+    text-align: center;
+    font-style: oblique;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    flex-direction: column;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0px 3px;
+    width: 62px;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffff;
+    background-color: rgb(43, 57, 57);
+    font-size: 20px;
+
+}
+
+#one,
+#two,
+#three {
+    flex-direction: column;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0px 3px;
+    width: 62px;
+    align-items: center;
+    border-radius: 50%;
+    color: #000000;
+    background-color: rgb(161, 157, 157);
+    font-size: 20px;
+}
+
+#four,
+#eight,
+#twelve,
+#sixteen,
+#twenty {
+    flex-direction: column;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0px 3px;
+    width: 62px;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffff;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.row,
+.input {
+    height: 60px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px 20px;
+    border-radius: 5px;
+
+}
+.footer{
+    color:#fff;
+    font-size:20px;
+    font-style:oblique;
+    text-align: center;
+}
+span{
+font-size: 23px;
+}
